@@ -1,0 +1,3 @@
+{
+    "mongoURL" : "mongodb+srv://shopOnline:1234@cluster0.okyel.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
