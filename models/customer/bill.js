@@ -19,6 +19,9 @@ const bill = new Schema({
         type : Date,
         default : Date.now()
     },
+    quantity : {
+        type : Number
+    },
     productsBuy : [{
         type: Schema.Types.ObjectId,
         ref: 'products'

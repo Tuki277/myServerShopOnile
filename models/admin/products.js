@@ -14,6 +14,9 @@ const products = new Schema({
     detail : {
         type : String
     },
+    imageProducts : {
+        type : String
+    },
     category: {
         type: Schema.Types.ObjectId,
         ref: 'category'
